@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agentic Workflow Impact Model</title>
+    <!-- Tailwind CSS Play CDN for instant, professional styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans leading-relaxed">
+    <div class="max-w-4xl mx-auto px-6 py-12">
+        
+        <!-- Header -->
+        <header class="mb-12 border-b border-slate-200 pb-8">
+            <h1 class="text-4xl font-bold text-slate-900 mb-2">Agentic Workflow Impact Model</h1>
+            <p class="text-lg text-slate-600">A Quantitative Venture Thesis on Enterprise AI Integration</p>
+            <div class="mt-4 flex items-center text-sm font-medium text-slate-500 space-x-4">
+                <span>Author: Dhruv Jani</span>
+                <span>•</span>
+                <span>Summer 2026</span>
+            </div>
+        </header>
+
+        <!-- Executive Summary -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-semibold text-slate-800 mb-4">Executive Summary</h2>
+            <p class="text-slate-600 mb-4">
+                The public market is flooded with announcements of autonomous AI agents and enterprise generative AI rollouts. This project cuts through the PR noise using rigorous <strong>Event Study Methodology</strong> and <strong>Ordinary Least Squares (OLS) regression</strong> to empirically determine which AI integrations actually drive statistically significant valuation increases versus those dismissed as mere hype.
+            </p>
+        </section>
+
+        <!-- Methodology -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-semibold text-slate-800 mb-4">The Methodology</h2>
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100">
+                <ul class="list-disc pl-5 space-y-3 text-slate-600">
+                    <li><strong>Data Ingestion:</strong> Automated fetching of historical adjusted close prices via the Yahoo Finance API.</li>
+                    <li><strong>Expected Returns:</strong> Calculated using a 252-day OLS regression window against the NASDAQ benchmark (^IXIC).</li>
+                    <li><strong>Impact Estimation:</strong> Computes the Cumulative Abnormal Return (CAR) over a localized event window to quantify net market sentiment.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Key Findings -->
+        <section class="mb-10">
+            <h2 class="text-2xl font-semibold text-slate-800 mb-4">Key Findings: The AI Value Drivers</h2>
+            <p class="text-slate-600 mb-4">
+                By isolating the market reaction from broader macroeconomic movements, the model identified the following top-performing enterprise AI rollouts out of 15 tracked events:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100 border-t-4 border-t-emerald-500 hover:shadow-md transition">
+                    <h3 class="text-xl font-bold text-slate-900 mb-1">MNDY</h3>
+                    <p class="text-sm font-semibold text-emerald-600 mb-3">+8.51% CAR</p>
+                    <p class="text-sm text-slate-600">Monday AI rollout strongly validated as a core driver for new enterprise seats and retention.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100 border-t-4 border-t-emerald-400 hover:shadow-md transition">
+                    <h3 class="text-xl font-bold text-slate-900 mb-1">ADBE</h3>
+                    <p class="text-sm font-semibold text-emerald-500 mb-3">+3.03% CAR</p>
+                    <p class="text-sm text-slate-600">Firefly generative AI rewarded as a highly effective protective moat for creative workflows.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-slate-100 border-t-4 border-t-slate-300 hover:shadow-md transition">
+                    <h3 class="text-xl font-bold text-slate-900 mb-1">BOX</h3>
+                    <p class="text-sm font-semibold text-slate-500 mb-3">+0.41% CAR</p>
+                    <p class="text-sm text-slate-600">Flat reaction; Box AI largely priced in as table stakes for modern cloud storage platforms.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dashboard Link Section -->
+        <section class="mb-12">
+            <div class="bg-slate-900 text-white p-8 rounded-xl text-center shadow-lg">
+                <h2 class="text-2xl font-semibold mb-4">Interactive Portfolio Dashboard</h2>
+                <p class="text-slate-300 mb-6 max-w-2xl mx-auto">
+                    Explore the full thesis data interactively. Use the dynamic slider to filter market noise, analyze Risk vs. Reward (Beta vs. CAR), and visualize the aggregated results across the sector.
+                </p>
+                <!-- This links directly to the default port Streamlit uses -->
+                <a href="http://localhost:8501" target="_blank" rel="noopener noreferrer" class="inline-block bg-emerald-500 hover:bg-emerald-600 text-white font-semibold py-3 px-8 rounded-md transition duration-200 shadow-sm">
+                    Launch Interactive Dashboard
+                </a>
+                <p class="text-xs text-slate-400 mt-4">
+                    Requires <code>streamlit run app.py</code> running in your local terminal.
+                </p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t border-slate-200 pt-8 text-center text-sm text-slate-500">
+            <p>Developed from scratch for quantitative market analysis. Powered by Python, Pandas, and Streamlit.</p>
+        </footer>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+
+    MARKET IMPACT EVALUATION MEMO
+    --------------------------------------------------
+    TICKER: NOW
+    NET MARKET IMPACT (CAR): 0.16%
+    MARKET BETA (Correlation to NASDAQ): 1.33
+    
+    THESIS SUMMARY:
+    Based on a 252-day OLS regression against the NASDAQ benchmark, 
+    the asset exhibited a Cumulative Abnormal Return (CAR) of 0.16% 
+    over the event window. 
+    
+    Positive market validation detected.
+    --------------------------------------------------
+    

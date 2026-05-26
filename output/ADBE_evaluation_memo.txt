@@ -1,0 +1,15 @@
+
+    MARKET IMPACT EVALUATION MEMO
+    --------------------------------------------------
+    TICKER: ADBE
+    NET MARKET IMPACT (CAR): 3.03%
+    MARKET BETA (Correlation to NASDAQ): 1.16
+    
+    THESIS SUMMARY:
+    Based on a 252-day OLS regression against the NASDAQ benchmark, 
+    the asset exhibited a Cumulative Abnormal Return (CAR) of 3.03% 
+    over the event window. 
+    
+    Positive market validation detected.
+    --------------------------------------------------
+    
