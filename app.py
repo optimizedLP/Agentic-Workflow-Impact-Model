@@ -4,7 +4,7 @@ import plotly.express as px
 import os
 
 # Set page layout
-st.set_page_config(page_title="Venture AI Thesis", layout="wide")
+st.set_page_config(page_title="Market Impact Analysis", layout="wide")
 
 st.title("Enterprise AI: Market Impact Evaluator")
 st.markdown("Quantifying the statistical value-creation of autonomous agent and generative AI integrations.")
